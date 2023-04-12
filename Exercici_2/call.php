@@ -7,7 +7,7 @@
   $triangle = new Triangle($_POST['baseTriangle'], $_POST['alturaTriangle']);
   $rectangle = new Rectangle($_POST['baseRectangle'], $_POST['alturaRectangle']);
   
-  echo "L'àrea del triangle és: ".$triangle->area()." m2";
-  echo "\nL'àrea del rectangle és: ".$rectangle->area()." m2";
+  echo "L'àrea del triangle és: ".$triangle->area()." m2"."<br>";
+  echo "L'àrea del rectangle és: ".$rectangle->area()." m2";
 
 ?>

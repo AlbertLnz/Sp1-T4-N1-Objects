@@ -3,8 +3,7 @@
   class Triangle extends Shape{
 
     function __construct($width, $height){
-      $this->width = $width;
-      $this->height = $height;
+      parent::__construct($width, $height);
     }
 
     public function area(){

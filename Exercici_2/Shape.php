@@ -1,10 +1,15 @@
 <?php
 
   abstract class Shape{
-    private $width;
-    private $height;
+    protected $width;
+    protected $height;
 
-    public abstract function area($width, $height);
+    function __construct($width, $height){
+      $this->width = $width;
+      $this->height = $height;
+    }
+
+    public abstract function area();
   }
 
 ?>
